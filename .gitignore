@@ -1,4 +1,8 @@
-# Compiled class file
+#mainfest.mf
+ .mf
+ 
+#
+#Compiled class file
 *.class
 
 # Log file
