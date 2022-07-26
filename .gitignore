@@ -1,9 +1,14 @@
 #mainfest.mf
- .mf
+ .MF
  
 #
 #Compiled class file
 *.class
+#addtional file & path
+.classpath
+.project
+.settings/
+
 
 # Log file
 *.log
