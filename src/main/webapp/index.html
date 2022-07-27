@@ -1,8 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8" />
-<title>일룸 클론코딩</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+	integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
@@ -10,150 +14,252 @@
 	rel="stylesheet">
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-	integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-	crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="css/iloom.css" />
-<meta name="viewport" content="width=device-width,  initial-scale=1.0 " />
+<title>일룸 clone</title>
 </head>
 <body>
-	<div id="side" class = "d-none">
+	<div id="side" class="d-none">
 		<div class="side-details">
 			<div class="details-top">
-				<a href="#">&lt;%lt;%lt; click me</a>
+				<a href="#">&lt;&lt;&lt;click me</a>
 			</div>
 			<div class="details-body">
 				<p class="body-title">
-					이 소식은 <br> 놓치지 마세요
+					이 소식은<br> 놓치지 마세요
 				</p>
 				<ul>
 					<li>
 						<figure>
-							<img src="images/promo1.jpg" alt="#" />
-							<figcaption>#1.프로모션 바로보기</figcaption>
+							<img src="images/promo1.jpg" alt="프로모션#1">
+							<figcaption>#1.프로모션 바로 보기</figcaption>
 						</figure>
-
 					</li>
 					<li>
 						<figure>
-							<img src="images/promo2.jpg" alt="#" />
-							<figcaption>#1.프로모션 바로보기</figcaption>
+							<img src="images/promo2.jpg" alt="프로모션#2">
+							<figcaption>#2.취향체크인 하세요!</figcaption>
 						</figure>
-
 					</li>
 					<li>
 						<figure>
-							<img src="images/promo3.jpg" alt="#" />
-							<figcaption>#1.프로모션 바로보기</figcaption>
+							<img src="images/promo3.jpg" alt="프로모션#3">
+							<figcaption>#3.27평 신혼집 집들이</figcaption>
 						</figure>
-
 					</li>
 				</ul>
 			</div>
 			<div class="details-bottom">
-				<a href="#">&lt;%lt;%lt; click me</a>
+				<a href="#">&lt;&lt;&lt;click me</a>
 			</div>
 		</div>
-		details <a href="#">click me</a>
+		<a href="#">click me</a>
 	</div>
 	<header>
-		<nav class="main-nav">
-			<ul id="gnb">
-				<li><img src="images/icon_menu_30px.svg" alt="menu" /></li>
-				<li><a href="#">침실</a></li>
-				<li><a href="#">거실</a></li>
-				<li><a href="#">주방</a></li>
-				<li><a href="#">키즈룸</a></li>
-				<li><a href="#">학생방</a></li>
-				<li><a href="#">서재</a></li>
-				<li><a href="#">팻</a></li>
-				<li><a href="#">시리즈</a></li>
-				<li><a href="#">아울렛</a></li>
-			</ul>
-		</nav>
-		<div class="main-logo">
-			<img src="images/gnb_logo.png" alt="일룸\ iloom" />
+		<div class="header-wrap">
+			<nav class="main-nav">
+				<ul id="gnb">
+					<li><a href="#"><img src="images/icon_menu_30px.svg"
+							alt="전체메뉴"></a></li>
+					<li><a href="#">침실</a></li>
+					<li><a href="#">거실</a></li>
+					<li><a href="#">주방</a></li>
+					<li><a href="#">키즈룸</a></li>
+					<li><a href="#">학생방</a></li>
+					<li><a href="#">서재</a></li>
+					<li><a href="#">펫</a></li>
+					<li><a href="#">시리즈</a></li>
+					<li><a href="#">아울렛</a></li>
+				</ul>
+			</nav>
+			<div class="main-logo">
+				<a href="#"> <img src="images/gnb_logo.png" alt="일룸 | iloom">
+				</a>
+			</div>
+			<div class="main-links">
+				<ul class="items">
+					<li><a href="#">이벤트</a></li>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">주문/배송</a></li>
+					<li><a href="#">고객지원</a></li>
+					<li><a href="#">매장안내</a></li>
+					<li><a href="#"><img src="images/icon_search_30px.svg"
+							alt="검색"></a></li>
+					<li><a href="#"><img src="images/icon_cart_30px.svg"
+							alt="장바구니"></a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="main-links">
-			<ul id="items">
-				<li><a href="#">이벤트</a></li>
-				<li><a href="#">로그인</a></li>
-				<li><a href="#">회원가입</a></li>
-				<li><a href="#">주문/배송</a></li>
-				<li><a href="#">고객지원</a></li>
-				<li><a href="#">매장안내</a></li>
-				<li><a href="#">팻</a></li>
-				<li><a href="#"><img src="images/icon_search_30px.svg" alt="검색" /></a></li>
-				<li><a href="#"><img src="images/icon_cart_30px.svg" alt="카트" /></a></li>
-			</ul>
-		</div>
+		<!-- /.header-wrap -->
 	</header>
-	<section id="hero"><img src="images/carousel-im1.jpg" alt="프로모션이미지" /></section>
-	<div class="recommed"><p class="reco_title">고객님을 위한 제품 추천</p></div>
+	<div class="carousel">
+		<div id="imgs">
+			<img src="images/carousel-img1.jpg" alt="프로모션 이미지"> <img
+				src="images/carousel-img2.jpg" alt="프로모션 이미지"> <img
+				src="images/carousel-img3.jpg" alt="프로모션 이미지"> <img
+				src="images/carousel-img4.jpg" alt="프로모션 이미지"> <img
+				src="images/carousel-img5.jpg" alt="프로모션 이미지"> <img
+				src="images/carousel-img6.jpg" alt="프로모션 이미지"> <img
+				src="images/carousel-img7.png" alt="프로모션 이미지">
+		</div>
+		<div class="btns">
+			<button>
+				<span class="material-symbols-outlined">chevron_left</span>
+			</button>
+			<button>
+				<span class="material-symbols-outlined">navigate_next</span>
+			</button>
+		</div>
+	</div>
+	<div class="recommend">
+		<p class="reco_title">고객님을 위한 제품 추천</p>
 		<ul>
-			<li>
-				<a href="#">
-					<img src="images/recommend1.jpg" alt="쿠시노 저상형 침대" />
-					<p><span class="brand-name">[일룸]</span> 쿠시노 저상형 침대(ss)</p>
+			<li><a href="#"> <img src="images/recommend1.jpg"
+					alt="쿠시노 저상형 침대">
+					<p class="desc">
+						<span class="brand-name">[일룸]</span>쿠시노 저상형 침대(SS)
+					</p>
 					<p class="price">525,000</p>
-			
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="images/recommend1.jpg" alt="[일룸] 쿠시노 저상형 침대 (Q)" />
-					<p><span class="brand-name">[일룸]</span> 쿠시노 저상형 침대 (Q)</p>
+			</a></li>
+			<li><a href="#"> <img src="images/recommend1.jpg"
+					alt="헤이즐 침대(Q,K,KK공용)">
+					<p class="desc">
+						<span class="brand-name">[일룸]</span>헤이즐 침대(Q,K,KK공용)
+					</p>
 					<p class="price">889,000</p>
-			
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="images/recommend1.jpg" alt="[일룸] 쿠시노 저상형 패밀리 침대 Q+S" />
-					<p><span class="brand-name">[일룸]</span>쿠시노 저상형 패밀리 침대 Q+S</p>
+			</a></li>
+			<li><a href="#"> <img src="images/recommend1.jpg"
+					alt="쿠시노 저상형 침대 (SS) - 데이베드형">
+					<p class="desc">
+						<span class="brand-name">[일룸]</span>쿠시노 저상형 침대 (SS) - 데이베드형
+					</p>
+					<p class="price">1,056,000</p>
+			</a></li>
+			<li><a href="#"> <img src="images/recommend1.jpg"
+					alt="쿠시노 저상형 패밀리 침대 Q+S">
+					<p class="desc">
+						<span class="brand-name">[일룸]</span>쿠시노 저상형 패밀리 침대 Q+S
+					</p>
 					<p class="price">1,096,000</p>
-			
-				</a>
+			</a></li>
+			<li><a href="#"> <img src="images/recommend1.jpg"
+					alt="플롭 플롭 캐주얼 3인(패브릭)">
+					<p class="desc">
+						<span class="brand-name">[일룸]</span>플롭 플롭 캐주얼 3인(패브릭)
+					</p>
+					<p class="price">1,690,000</p>
+			</a></li>
+			<li><a href="#"> <img src="images/recommend1.jpg"
+					alt="쿠시노 저상형 침대 (Q)">
+					<p class="desc">
+						<span class="brand-name">[일룸]</span>쿠시노 저상형 침대 (Q)
+					</p>
+					<p class="price">625,000</p>
+			</a></li>
+		</ul>
+	</div>
+	<div class="promotion">
+		<div class="event-banner">
+			<a href="#"> <img src="images/event-wide-banner.jpg"
+				alt="취향저격 프로모션">
+			</a>
+		</div>
+		<ul class="promotion-list">
+			<li><a href="#"> <img src="images/event-list-cover1.jpg"
+					alt="이벤트">
+			</a></li>
+			<li><a href="#"> <img src="images/event-list-cover2.jpg"
+					alt="라이프스타일">
+			</a></li>
+			<li><a href="#"> <img src="images/event-list-cover3.jpg"
+					alt="리뷰">
+			</a></li>
+		</ul>
+	</div>
+	<div class="special">
+		<p>일룸으로 다랄진 특별한 생활을 마나보세요</p>
+		<a href="#">더보기 <img src="images/arrow_r_black.svg" alt="자세히보기" /></a>
+		<ul class="special-list">
+			<li>
+				<div class="attach-img">
+					<img src="images/user-attached-file1.jpg" alt="첨부파일" />
+				</div>
+				<div class="ranking">★★★★★</div>
+				<div class="write-title">탁유정님의일룸생활</div>
+				<div class="write-body">아이 방이랑 잘 어울리네요 7살아이 책상으로 아직 커보이지만 생각보다
+					튼튼해보이고 정말 마음에들어요 오래 잘사용할것같아요^^</div>
+				<div class="releate-item">
+					<img src="imgaes/relate-item1.jpg" alt="1200폭 6단 책장"
+						class="relate-cover" />
+					<div class="item-info">
+						<p class="item-tite">1200폭 6단 책장</p>
+						<p class="item-location">학생방</p>
+						<p class="item-price">554,000</p>
+					</div>
+				</div>
+				<div class="like-item">30</div>
 			</li>
 			<li>
-				<a href="#">
-					<img src="images/recommend1.jpg" alt="[일룸] 플롭 플롭 캐주얼 3인(패브릭)" />
-					<p><span class="brand-name">[일룸]</span> 플롭 플롭 캐주얼 3인(패브릭)</p>
-					<p class="price">525,000</p>
-			
-				</a>
+				<div class="attach-img">
+					<img src="images/user-attached-file2.jpg" alt="첨부파일" />
+				</div>
+				<div class="ranking">★★★★★</div>
+				<div class="write-title">이소영님의일룸생활</div>
+				<div class="write-body">꼭 가지고 싶던 2100사이즈의 식탁~^^ ㅋㅋ 팔이 짧아 닦는데
+					시간이 걸리지만 ㅋㅋ 그래도 너무 좋아요 음식을 차려 놓아도 있어보이는~ ㅋㅋ 대만족</div>
+				<div class="releate-item">
+					<img src="imgaes/relate-item2.jpg" alt="테이블 2100폭"
+						class="relate-cover" />
+					<div class="item-info">
+						<p class="item-tite">테이블 2100폭</p>
+						<p class="item-location">주방</p>
+						<p class="item-price">799,000</p>
+					</div>
+				</div>
+				<div class="like-item">86</div>
 			</li>
 			<li>
-				<a href="#">
-					<img src="images/recommend1.jpg" alt="[일룸] 헤이즐 침대(Q,K,KK공용)" />
-					<p><span class="brand-name">[일룸]</span>헤이즐 침대(Q,K,KK공용)</p>
-					<p class="price">889,000</p>
-			
-				</a>
+				<div class="attach-img">
+					<img src="images/user-attached-file3.jpg" alt="첨부파일" />
+				</div>
+				<div class="ranking">★★★★★</div>
+				<div class="write-title">마음도 몸도 편하게 해주는 소파</div>
+				<div class="write-body">패브릭소파를 쓰고 싶어도 더러워질까봐 걱정됐는데 플롭 소파는 물로
+					닦기만 해도 얼룩이 제거되는 아쿠아클린 패브릭이기 때문에 주스나 와인, 물감 등 일상생활에서 발생하는 얼룩들을 손쉽게
+					제거할 수 있어서 심적인 부담감이 완전 줄어들었어요. 마음이 아주 편해요. 게다가 큼직하고 푸근한 디자인이 굉장히
+					매력적이에요. 소파 덕분에 거실 전체적인 분위기가 아늑하고 부드러워졌어요. 벽쪽에 등받이를 붙여서 두어도 좋지만 거실
+					중간에 두어도 뒷모습이 이쁘고 시야를 막지 않아서 참 좋네요.^</div>
+				<div class="releate-item">
+					<img src="imgaes/relate-item3.jpg" alt="플롭 3인 아쿠아클린 패브릭 모듈 소파"
+						class="relate-cover" />
+					<div class="item-info">
+						<p class="item-tite">플롭 3인 아쿠아클린 패브릭 모듈 소파</p>
+						<p class="item-location">거실</p>
+						<p class="item-price">2,290,000</p>
+					</div>
+				</div>
+				<div class="like-item">4</div>
 			</li>
 			<li>
-				<a href="#">
-					<img src="images/recommend1.jpg" alt="[일룸] 쿠시노 저상형 침대 (SS)" />
-					<p><span class="brand-name">[일룸]</span>쿠시노 저상형 침대 (SS)</p>
-					<p class="price">525,000</p>
-			
-				</a>
+				<div class="attach-img">
+					<img src="images/user-attached-file1.jpg" alt="첨부파일" />
+				</div>
+				<div class="ranking">★★★★★</div>
+				<div class="write-title">한혜선님의 일룸생활</div>
+				<div class="write-body">홈카페존을 바꾸는 재미가 쏠쏠한 가구에요! 소품에 따라 분위기가 확 바뀌네요</div>
+				<div class="releate-item">
+					<img src="imgaes/relate-item1.jpg" alt="1200폭 6단 책장"
+						class="relate-cover" />
+					<div class="item-info">
+						<p class="item-tite">1000폭 카페장(인출형)</p>
+						<p class="item-location">주방</p>
+						<p class="item-price">449,000</p>
+					</div>
+				</div>
+				<div class="like-item">30</div>
 			</li>
 		</ul>
-		<div class="promotion">
-			<div class="event-banner"><a href="#"><img src="images/event-wide-banner.jpg" alt="취향저격 프로모션" /></a></div>
-			<ul class="promotion-list">
-				<li>
-					<a href="#"><img src="images/event-list-cover1.jpg" alt="이벤트" /></a>
-				</li>
-				<li>
-					<a href="#"><img src="images/event-list-cover2.jpg" alt="이벤트" /></a>
-				</li>
-				<li>
-					<a href="#"><img src="images/event-list-cover3.jpg" alt="이벤트" /></a>
-				</li>
-			</ul>
-		</div>
+
+	</div>
 </body>
 </html>
