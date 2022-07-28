@@ -1,5 +1,5 @@
 # iloom_clone
-## [부제](https://jinhyeokan.github.io/iloom-clone/src/main/webapp/index.html)
+## [홈페이지](https://jinhyeokan.github.io/iloom-clone/src/main/webapp/index.html)
 ### 개인 프로젝트
 일룸 웹사이트 클론코딩
 
