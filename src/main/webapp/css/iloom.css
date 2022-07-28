@@ -52,11 +52,10 @@ a, a:link {
     left: 10px;
     background: url('../images/custom.png') 0 -32px no-repeat;
 }
-.bx-wrapper .bx-next{
-	right: 10px;
-	background: url('../images/custom.png') -43px -32px no-repeat;
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url('../images/custom.png') -43px -32px no-repeat;
 }
-
 /* #imgs img {
 	position: absolute;
 } */
