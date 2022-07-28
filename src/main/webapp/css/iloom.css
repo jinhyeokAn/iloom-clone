@@ -53,10 +53,6 @@ header {
 	border : 0;
 	margin-top: 60px;
 }
-/* .bx-wrapper .bx-next {
-    right: 10px;
-    background: url(images/controls.png) -43px -32px no-repeat;
-} */
 .bx-wrapper .bx-prev {
     left: 10px;
     background: url('../images/custom.png') 0 -32px no-repeat;
@@ -68,3 +64,46 @@ header {
 /* #imgs img {
 	position: absolute;
 } */
+
+.reco_title{
+	font-weight: 900;
+	text-align: center;
+	margin : 1.5em 01.2em 0; 
+}
+.reco-list{
+	display: flex;
+	justify-content: center;
+}
+
+.reco-list img{
+	width: 213px;
+}
+.recommend{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.desc{
+	margin: 1rem 0;
+	font-size: .875em;
+}
+.price {
+	color : #ff4040;
+	font-size: .720em;
+}
+
+.promotion{
+	max-width: 1280px;
+	margin: 2em auto;
+	overflow:hidden;
+}
+.event-banner{
+	margin-bottom: 1em; 
+}
+.promotion-list{
+	display: flex;
+	column-gap: 1em;
+}
+.promotion-list img{
+	object-fit : cover;
+	max-width: 100%;
+}
