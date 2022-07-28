@@ -79,7 +79,7 @@ header {
 	width: 213px;
 }
 .recommend{
-	max-width: 1280px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 .desc{
@@ -106,4 +106,15 @@ header {
 .promotion-list img{
 	object-fit : cover;
 	max-width: 100%;
+}
+.promotion-list img{
+	object-fit: over;
+	max-width: 100%;
+	transition : all 1s ease-in-out
+}
+.promotion-list li{
+	overflow: hidden;
+}
+.promotion-list li:hover img{
+	transform : scale(1.05, 1.05);
 }
